@@ -1,0 +1,197 @@
+@import url("https://fonts.cdnfonts.com/css/amazon-ember");
+* {
+  margin: 0;
+  padding: 0;
+  border: border-box;
+  font-family: "Amazon Ember", sans-serif;
+  font-family: "Amazon Ember Cd RC", sans-serif;
+  font-family: "Amazon Ember Display", sans-serif;
+  font-family: "Amazon Ember Duospace", sans-serif;
+  font-family: "Amazon Ember Mono", sans-serif;
+  font-family: "Amazon Ember V2", sans-serif;
+  font-family: "Amazon Ember V3", sans-serif;
+}
+/* text-style */
+#text-items {
+  color: var(--primary-white, #fff);
+  font-family: Amazon Ember;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* navbar */
+
+.nav {
+  display: flex;
+  width: 100%;
+  height: 60px;
+  padding: 10px 10px 10px 16px;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-shrink: 0;
+  background: #141920;
+}
+
+.amazon-logo {
+  width: 118px;
+  height: 49px;
+  margin-top: 28px;
+  padding: 1px 8px 0 6px;
+}
+.address-container {
+  margin: 0 20px 0 20px;
+  color: White;
+  top: 8px;
+  width: 171px;
+  height: 45px;
+}
+.address-container svg {
+  left: 0;
+  overflow: hidden;
+  bottom: 20px;
+}
+.address-one {
+  position: relative;
+
+  left: 27px;
+  color: var(--primary-white, #fff);
+  font-family: Amazon Ember;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.address-second {
+  color: var(--primary-white, #fff);
+  font-family: Amazon Ember;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  position: relative;
+  bottom: 32px;
+  left: 28px;
+}
+.nav-search {
+  display: flex;
+  width: 700px;
+  height: 40px;
+}
+.nav-search select {
+  display: flex;
+  height: 42px;
+  
+  padding: 10px 10px 13px 9px;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  border-radius: 4px 0px 0px 4px;
+  background: #f3f3f3;
+  color: rgb(80, 80, 80);
+  
+}
+.nav-search input {
+  font-family: sans-serif;
+  border: 1px solid gray;
+  border-left: 0 solid gray;
+  font-size: 20px;
+  outline: none;
+  display: flex;
+  height: 40px;
+  width: 667px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 667px;
+
+  background: var(--primary-white, #fff);
+}
+.nav-search input::placeholder {
+  position: relative;
+  left: 10px;
+  cursor: text;
+}
+.nav-search .button {
+  border-radius: 0px 4px 4px 0px;
+  border: none;
+  background: var(--secondary-yellow, #f4bf76);
+  display: flex;
+  width: 45px;
+  height: 42px;
+  padding: 8px 10px 8px 11px;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+.user-detail-container {
+  height: 40px;
+  width: 137px;
+  margin: 0 20px 0 20px;
+}
+
+.user-detail {
+  color: var(--primary-white, #fff);
+  font-family: Amazon Ember;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.user-detail-container select {
+  margin-top: 4px;
+  color: var(--primary-white, #fff);
+  font-family: Amazon Ember;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  background: transparent;
+  border: none;
+}
+.order-detail {
+  width: 78px;
+  height: 50px;
+  margin-left: 2px;
+  padding: 0 9px 10px 9px;
+}
+.returns {
+  color: var(--primary-white, #fff);
+  font-family: Amazon Ember;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.order {
+  margin-top: 4px;
+  color: var(--primary-white, #fff);
+  font-family: Amazon Ember;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  background: transparent;
+  border: none;
+}
+.cart {
+  margin-left: 2px;
+  margin-right: 11px;
+  padding: 0 9px 11px 9px;
+  width: 76px;
+  height: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cart span{
+    color: var(--primary-white, #FFF);
+font-family: Amazon Ember;
+font-size: 18px;
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+position: relative;
+top: 15px;
+}
