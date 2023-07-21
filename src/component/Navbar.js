@@ -66,7 +66,7 @@ const Navbar = () => {
             stroke-linejoin="round"
           />
         </svg>
-        <div className="address-second">India</div>
+        <div className="address-second">Select ur address</div>
       </div>
       <div className="nav-search">
         <select>
