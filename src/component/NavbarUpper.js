@@ -7,9 +7,9 @@ const Navbar = () => {
       <div className="amazon-logo">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width="100"
-          height="30"
-          viewBox="0 0 100 30"
+          width="114"
+          height="50"
+          viewBox="0 0 110 50"
           fill="none"
         >
           <g clip-path="url(#clip0_104_504)">
@@ -45,9 +45,10 @@ const Navbar = () => {
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="30px"
-          height="30"
-          viewBox="0 0 17 19"
+          height="30px"
+          viewBox="0 0 19 20"
           fill="none"
+          style={{position:"relative", bottom:"19%"}}
         >
           <path
             fill-rule="evenodd"
@@ -66,7 +67,7 @@ const Navbar = () => {
             stroke-linejoin="round"
           />
         </svg>
-        <div className="address-second">Select ur address</div>
+        <div className="address-second">Select your address</div>
       </div>
       <div className="nav-search">
         <select>
@@ -98,9 +99,9 @@ const Navbar = () => {
         <p>
           <span className="returns">Returns</span>
         </p>
-        <select className="order">
-          <option>& Order</option>
-        </select>
+        <p>
+        <span className="order">& Orders</span>
+        </p>
       </div>
       <div className="cart">
         <svg

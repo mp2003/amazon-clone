@@ -1,20 +1,12 @@
-@import url("https://fonts.cdnfonts.com/css/amazon-ember");
 * {
   margin: 0;
   padding: 0;
   border: border-box;
-  font-family: "Amazon Ember", sans-serif;
-  font-family: "Amazon Ember Cd RC", sans-serif;
-  font-family: "Amazon Ember Display", sans-serif;
-  font-family: "Amazon Ember Duospace", sans-serif;
-  font-family: "Amazon Ember Mono", sans-serif;
-  font-family: "Amazon Ember V2", sans-serif;
-  font-family: "Amazon Ember V3", sans-serif;
 }
 /* text-style */
 #text-items {
   color: var(--primary-white, #fff);
-  font-family: Amazon Ember;
+  font-family: arial;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -25,25 +17,27 @@
 
 .nav {
   display: flex;
-  height: 60px;
-  padding: 10px 10px 10px 16px;
+  height: 50px;
+  padding: 10px 5px 10px 5px;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
   flex-shrink: 0;
   background: #141920;
 }
 
 .amazon-logo {
-  width: 118px;
-  height: 49px;
+  width: 114px;
+  height: 50px;
   margin-top: 28px;
   padding: 1px 8px 0 6px;
 }
 .address-container {
-  margin: 0 20px 0 20px;
+  margin: 2px 5px 2px 5px;
   color: White;
   top: 8px;
-  padding-right: 20px;
+  padding-top: 10px;
+  padding-right: 40px;
+  margin-left: 5px;
   width: 150px;
   height: 45px;
 }
@@ -58,17 +52,17 @@
 
   left: 27px;
   color: var(--primary-white, #fff);
-  font-family: Amazon Ember;
-  font-size: 16px;
+  font-family: arial;
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
 .address-second {
-    margin-top: 4px;
+  
   color: var(--primary-white, #fff);
-  font-family: Amazon Ember;
-  font-size: 20px;
+  font-family: arial;
+  font-size: 14px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -102,7 +96,7 @@
   font-size: 20px;
   outline: none;
   display: flex;
-  height: 40px;
+  height: 39px;
   width: 667px;
   justify-content: center;
   align-items: flex-start;
@@ -131,21 +125,24 @@
   height: 40px;
   width: 137px;
   margin: 0 20px 0 20px;
+  display: block;
 }
 
 .user-detail {
+  position: relative;
+  top: 5px;
   color: var(--primary-white, #fff);
-  font-family: Amazon Ember;
-  font-size: 16px;
+  font-family: arial;
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
 .user-detail-container select {
-  margin-top: 4px;
+  margin-top: 6px;
   color: var(--primary-white, #fff);
-  font-family: Amazon Ember;
-  font-size: 18px;
+  font-family: arial;
+  font-size: 16px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -160,8 +157,8 @@
 }
 .returns {
   color: var(--primary-white, #fff);
-  font-family: Amazon Ember;
-  font-size: 16px;
+  font-family: arial;
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -169,8 +166,8 @@
 .order {
   margin-top: 4px;
   color: var(--primary-white, #fff);
-  font-family: Amazon Ember;
-  font-size: 18px;
+  font-family: arial;
+  font-size: 16px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -189,11 +186,14 @@
 }
 .cart span{
     color: var(--primary-white, #FFF);
-font-family: Amazon Ember;
-font-size: 18px;
+font-family: arial;
+font-size: 16px;
 font-style: normal;
 font-weight: bold;
 line-height: normal;
 position: relative;
 top: 15px;
+}
+select:active,select:focus{
+    border:none;outline: none;
 }
