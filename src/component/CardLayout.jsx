@@ -2,7 +2,6 @@ import React from "react";
 import "./CardLayout.css";
 import { NavLink } from "react-router-dom";
 import imagePaths from "./ImageLoader.js";
-import banner1 from "../asset/banner1.jpg";
 const CardLayout = () => {
   return (
     <div className="card-container">
