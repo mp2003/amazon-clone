@@ -13,7 +13,7 @@ const CardLayout = () => {
             </h2>
             <div className="inner-box image">
               <img src={imagePaths.box1} alt="box-image" />
-              
+      
             </div>
           <NavLink to="#" className="hyperlink">
                 See more
