@@ -79,7 +79,7 @@
   display: flex;
   height: 42px;
   
-  padding: 10px 10px 13px 9px;
+  padding: 12px 10px 13px 9px;
   justify-content: center;
   align-items: center;
   gap: 6px;
@@ -106,6 +106,8 @@
 }
 .nav-search input::placeholder {
   position: relative;
+  font-size: 18px;
+  font-weight: 400;
   left: 10px;
   cursor: text;
 }

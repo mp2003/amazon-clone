@@ -4,6 +4,16 @@
   padding: 0;
 }
 body {
-  background: linear-gradient(0deg, #efc6a842 0%,  rgb(250, 250, 250) 40%);
+  background:#e3e6e6;
 }
 
+@media (min-width: 1036px) and (min-height: 768px) {
+  main {
+    position: absolute;
+    top: 39.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1700px;
+    margin-top: 33.1%;
+  }
+}
