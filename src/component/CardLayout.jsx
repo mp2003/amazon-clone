@@ -18,6 +18,8 @@ const CardLayout = () => {
           <NavLink to="#" className="hyperlink">
                 See more
               </NavLink></div>
+
+          
         </div>
         <div className="box">
           <div className="inner-box">
